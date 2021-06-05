@@ -154,6 +154,7 @@ def masse_volumique(z):
 
 def graphe(distance_parcourue_temps_t, altitude_au_temps_t):
     log("graphe")
+    print (i)
     #print (altitude_au_temps_t)
     altitude_au_temps_t= np.array(altitude_au_temps_t)
     plt.plot(distance_parcourue_temps_t,altitude_au_temps_t)    
